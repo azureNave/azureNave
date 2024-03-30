@@ -15,3 +15,7 @@ Some examples of Python decorators
 There are many built-in decorators in Python, such as @staticmethod, @classmethod, @property, @functools.lru_cache, @functools.singledispatch, etc.
 
 https://medium.com/@ayush-thakur02/python-decorators-that-can-reduce-your-code-by-half-b19f673bc7d8
+
+https://www.linkedin.com/pulse/enhancing-spark-functions-python-decorators-divyansh-patel-vrfne#:~:text=This%20decorator%20ensures%20that%20the,that%20might%20otherwise%20go%20unnoticed.
+
+https://medium.com/@machadogj/easier-spark-jobs-logging-with-decorators-b6bd68eab129
