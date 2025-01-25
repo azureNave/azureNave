@@ -3,6 +3,10 @@
 	"properties": {
 		"nbformat": 4,
 		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "clust",
+			"type": "BigDataPoolReference"
+		},
 		"sessionProperties": {
 			"driverMemory": "28g",
 			"driverCores": 4,
@@ -13,7 +17,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "4d443ddf-b6df-4707-a0d9-1d1c0981b2d0"
+				"spark.autotune.trackingId": "1d575066-7f26-4d27-81bf-77e06fa59351"
 			}
 		},
 		"metadata": {
@@ -25,6 +29,21 @@
 			},
 			"language_info": {
 				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/666fd356-981f-43ed-b555-c27a9a2a5c21/resourceGroups/RG-Prac-NaveenKumar/providers/Microsoft.Synapse/workspaces/rg-dev-synapse-wf/bigDataPools/clust",
+				"name": "clust",
+				"type": "Spark",
+				"endpoint": "https://rg-dev-synapse-wf.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/clust",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "3.4",
+				"nodeCount": 10,
+				"cores": 4,
+				"memory": 28,
+				"automaticScaleJobs": false
 			},
 			"sessionKeepAliveTimeout": 30
 		},
